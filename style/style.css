@@ -1,0 +1,82 @@
+header, .contact {
+  background: lightblue;
+  height: auto;
+  color: #6b0101;
+}
+
+header button, .contact button {
+  color: #6b0101;
+  background: #db6666;
+  font-size: large;
+  height: 50px;
+  width: auto;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 25em;
+}
+
+header button:hover, .contact button:hover {
+  background: #7cda64;
+}
+
+nav ul {
+  background: #6b91a3;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  background: #1c115a;
+  -webkit-transition-duration: 0.6ms;
+          transition-duration: 0.6ms;
+}
+
+.profile-img {
+  border-radius: 999px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  position: centre;
+}
+
+.panel, .small-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: lightgreen;
+  margin: 10px;
+  text-align: center;
+}
+
+.small-panel {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.big-panel {
+  border-radius: 20px;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.contact {
+  background: lightcoral;
+}
+
+p {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

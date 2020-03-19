@@ -1,0 +1,21 @@
+@import './variables';
+@import './header';
+@import './navigation';
+@import './profile';
+@import './panels';
+
+// . {
+//   padding: 0px;
+//   margin: 0px;
+// }
+
+.contact {
+  //  @include flexContent(row, rgb(128, 128, 219));
+
+  @extend header;
+  background: lightcoral;
+}
+
+p {
+  font-size: 20px;
+}

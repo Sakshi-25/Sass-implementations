@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 30px;
+}
+
+input {
+  width: 80%;
+  font-size: 18px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.msg {
+  padding: 25px;
+  margin: 50px 0;
+  background-color: #aebb7f;
+  font-size: x-large;
+  width: auto;
+  opacity: 0;
+  transition: opacity 50ms ease-out;
+}
+
+input:not(:placeholder-shown) + .msg {
+  opacity: 1;
+}
